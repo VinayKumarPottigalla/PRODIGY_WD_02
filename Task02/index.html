@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stopwatch App</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" 
+  referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="stopwatch">
+    <h4 class="head" > <i class="fa-solid fa-stopwatch"></i> Stop Watch</h4>
+    <h1 id="timeDisplay">00:00:00</h1>
+    <button id="startBtn" onclick="watchStart()"><i class="fa-regular fa-circle-play"></i> Start</button>
+    <button id="pauseBtn" onclick="watchStop()"> <i class="fa-regular fa-circle-stop"></i> Pause</button>
+    <button id="resetBtn" onclick="watchReset()"> <i class="fa-solid fa-rotate-left"></i> Reset</button>
+    <button id="lapBtn" onclick="Lapslist()">Lap</button>
+    <ol id="lapTimes"></ol>
+  </div>
+  <script src="./script.js">
+
+  </script>
+</body>
+</html>
